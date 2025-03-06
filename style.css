@@ -1,0 +1,129 @@
+body {
+  background-image: url(anime-girl-watching-the-blue-sky-moewalls-com.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "montsserat", sans-serif;
+}
+
+a {
+  color: #6c4ac2;
+}
+
+.welcome {
+  text-align: center;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: thin;
+  color: #272044;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+form {
+  display: flex;
+}
+
+.form-container {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
+}
+
+.search {
+  padding: 16px;
+  border: 1px solid rgba(160, 145, 228, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.button {
+  margin-left: 10px;
+  background: #885df1;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.response {
+  font-size: 16px;
+  display: none;
+  background-color: #ffffffcb;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #885df1;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 10px;
+}
+
+.search strong {
+  color: #6c4ac2;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
